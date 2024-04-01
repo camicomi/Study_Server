@@ -1,0 +1,14 @@
+2024-04-01 09:07:29,698 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-04-01 09:36:50,152 [main] INFO  org.eclipse.jetty.server.Server - jetty-10.0.9; built: 2022-03-30T16:46:32.527Z; git: a9eaf8d5d73369acf610ce88f850c0d56c4b1113; jvm 11.0.21+9-LTS-193
+2024-04-01 09:36:50,167 [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2024-04-01 09:36:50,183 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1f4eda8{/wse,null,AVAILABLE}
+2024-04-01 09:36:50,198 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@2f199237{HTTP/1.1, (http/1.1)}{0.0.0.0:56021}
+2024-04-01 09:36:50,198 [main] INFO  org.eclipse.jetty.server.Server - Started Server@5937130d{STARTING}[10.0.9,sto=0] @1779645ms
+2024-04-01 10:00:51,918 [Framework stop - Equinox Container: 6ec47d1a-d7fc-4e1f-bcf3-08732ef492be] INFO  org.eclipse.jetty.server.Server - Stopped Server@5937130d{STOPPING}[10.0.9,sto=0]
+2024-04-01 10:00:51,918 [Framework stop - Equinox Container: 6ec47d1a-d7fc-4e1f-bcf3-08732ef492be] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@2f199237{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+2024-04-01 10:00:51,954 [Framework stop - Equinox Container: 6ec47d1a-d7fc-4e1f-bcf3-08732ef492be] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1f4eda8{/wse,null,STOPPED}
+2024-04-01 10:00:59,853 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-01 14:15:15,961 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-01 14:20:01,737 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-01 14:21:09,562 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-01 14:30:35,269 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

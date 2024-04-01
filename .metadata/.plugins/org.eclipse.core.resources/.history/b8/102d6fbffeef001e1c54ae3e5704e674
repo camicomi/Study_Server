@@ -1,0 +1,47 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%
+
+	int a = 10;
+
+/* 
+메소드라서 메소드를 만들 수 없음
+
+public void test () {
+}
+
+class Test {
+	
+}
+
+
+*/
+
+%>
+
+<%!
+
+	// 선언부
+	public int b = 20;
+
+	public int sum(int a, int b) {
+	return a + b;
+	}
+
+%>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!--  ex08.jsp  -->
+
+<div>10 + 20 = <%= sum(10, 20) %></div>
+
+</body>
+</html>
