@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        body {
+            transition-property: filter, -webkit-filter;
+            transition-duration: 3s;
+        }
+
+        h1 { font-family: arial; font-size: 3em; font-variant: small-caps; text-align: center; margin-bottom: 5px; }
+        #box {
+            border: 10px solid #999;
+            border-radius: 15px;
+            width: 300px;
+            height: 200px;
+            margin: 0px auto;
+            background: #eee;
+            transform: translate(0px, 0px);
+            z-index: 3;
+            position: relative;
+            left: 0px;
+            top: 0px;
+        }
+        #score {
+            font-family: impact;
+            font-weight: bold;
+            font-size: 7em;
+            color: cornflowerblue;
+            text-align: center;
+            border: 0px;
+            outline: none;
+            width: 300px;
+            background-color: transparent;
+        }
+        #area {
+            border: 5px solid #ccc;
+            border-radius: 10px;
+            width: 1400px;
+            height: 650px;
+            margin: -130px auto;
+            position: relative;
+            left: 0px;
+            top: 0px;
+            z-index: 1;
+        }
+        .citem {
+            width: 50px;
+            height: 50px;
+            float: left;
+            margin-left: 10px;
+        }
+        .citem:first-child {
+            margin-left: 70px;
+        }
+
+        .vibCat {
+            animation: keyCat .1s infinite alternate;
+        }
+
+        @keyframes keyCat {
+            0% { transform: translate(0px, 0px); }
+            25% { transform: translate(15px, 0px); }
+            50% { transform: translate(0px, 0px); }
+            75% { transform: translate(-15px, 0px); }
+            100% { transform: translate(0px, 0px); }
+        }
+
+        #stat {
+            font-size: 7em;
+            font-variant: small-caps;
+            font-family: Arial;
+            text-align: center;
+            color: tomato;
+            margin-top: -400px;
+            position: relative;
+            left: 0px;
+            top: 0px;
+            z-index: 5;
+        }
+
+    </style>
+    <script>
+        
+    </script>
+</head>
+<body onselectstart="return false;" oncontextmenu="return false;" ondragstart="return false;">
+    <h1>Catch Cat</h1>
+    <div id="box">
+        <input type="text" id="score" name="score" readonly>
+        <div id="count">
+            <img class="citem" name="imgPenalty">
+            <img class="citem" name="imgPenalty">
+            <img class="citem" name="imgPenalty">
+        </div>
+    </div>
+    <div id="area">
+
+    </div>
+    <div id="stat">Ready</div>
+</body>
+</html>

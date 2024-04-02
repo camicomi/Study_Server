@@ -2,3 +2,11 @@
 1711948855675	Rename resource 'ex01.jsp'
 1711949020285	Rename resource 'ex.01.jsp'
 1711959967827	Delete element
+1712024056921	Rename resource 'q1.jsp'
+1712027463870	Delete element
+1712027479171	Move 'ex13_request.jsp' to 'sub'
+1712027625113	Move 'ex13_request.jsp' to 'webapp'
+1712027786497	Rename resource 'q1_form.jsp'
+1712027800360	Rename resource 'q2_ok.jsp'
+1712029674580	Rename resource 'ex15_pagecontext.jsp'
+1712046635820	Rename resource 'q2_form.jsp'

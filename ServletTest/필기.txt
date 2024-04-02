@@ -260,6 +260,9 @@ Hello ~
 1. 클라이언트에서 서버로 전송한 데이터를 가져오기
 	- ex10_form.jsp : 사용자 입력을 받는 페이지(Ex03_Send.java)
 	- ex10_ok.jsp : 전송된 데이터를 수신하는 페이지 (Ex03_Receive.java)
+	
+	- ex11_form.jsp : 
+	- ex11_ok.jsp :
 
 2. 클라이언트에서 서버로 전송한 데이터의 인코딩 처리
 
@@ -267,3 +270,74 @@ Hello ~
 
 
 - "ex09_request.jsp"
+
+
+response
+- HttpServletResponse
+- 서블릿의 doGet/doPost의 두번째 매개변수
+- 주로 서버측에서 클라이언트측으로 발생하는 모든 업무를 관여한다.
+
+1. 돌려줄 HTML 페이지 제작
+	- response.getWriter() > PrintWriter > HTML 제작
+	- 서블릿 > 작성O
+	- JSP > 암시적
+	
+2. 돌려줄 HTML 페이지 인코딩 설정
+
+	- response.setCharacterEncoding("UTF-8");
+	- 서블릿 > 작성 O
+	- JSP > 페이지 지시자 > contentType="text/html; charset=UTF-8"
+
+3. 돌려줄 HTML 페이지 MIME 설정
+	- contentType="text/html"
+	- 파일 업로드 수업 때 
+
+4. 페이지 이동하기
+	- ex14_response_1.jsp
+	- ex14_response_2.jsp
+	
+pageContext
+	- ex15_pagecontext_1.jsp
+	- ex15_pagecontext_2.jsp
+	
+
+내장 객체의 생명 주기
+- pageContext, request(response), session, application
+- pageContext : 생성(페이지 요청) ~ 소멸(페이지 반환)  // 가장 짧음
+-  request : 생성(페이지 요청) ~ 소멸(페이지 반환)
+				생성(처음 페이지 요청) ~ 페이지  이동( forward) ~ 소멸(다음 페이지 반환)
+				
+- session : 생성(첫 방문시) ~ 소멸(최종 접속 후 30분 뒤) // 시간 조절 가능
+- application : 생성(첫번째 사용자 접속) ~ 소멸(마지막 사용자 세션 소멸)
+
+				
+
+out
+- 출력 객체 
+- JSP 방식이 아닌 Servlet 방식의 출력을 지원한다.
+- ex16_out.jsp
+
+
+session & application
+- session > 개인 정보 관리 객체 > (자바) 객체 변수
+- application > 사이트 정보 관리 객체 > (자바) 정적 변수(=공용 정보)
+
+- ex17_session.jsp
+
+- ex18_session.jsp //  메인 페이지
+- ex18_set.jsp
+- ex18_del.jsp
+- ex18_interval.jsp
+- ex18_reset.jsp
+
+
+	<!--  application, session, pageContext, request, response 순으로 만들어 지며,
+	페이지가 종료되면 pageContext, request, response가 죽고, 
+	사용자가 사이트를 나가는 순간 session이 죽고, 
+	사이트에 사용자가 아무도 없는 순간 application 죽는다 (생명 주기가 가장 길다) 
+
+*** 웹은 비연결성을 가진다.(Connectionless)
+- 브라우저와 서버는 페이지 요청시에만 연결이 되고, 페이지 응답을 마치면 둘간의 연결이 종료된다.
+
+
+파일 업로드/다운로드
