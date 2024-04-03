@@ -1,0 +1,91 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+
+	request.setCharacterEncoding("UTF-8");
+
+	int width = Integer.parseInt(request.getParameter("width"));
+	int height = Integer.parseInt(request.getParameter("height"));
+	String txt = request.getParameter("txt");
+	String color1 = request.getParameter("color1");
+	String color2 = request.getParameter("color2");
+	int fontsize = Integer.parseInt(request.getParameter("fontsize"));
+	int count = Integer.parseInt(request.getParameter("count"));
+	int leftright = Integer.parseInt(request.getParameter("leftright"));
+	int topbottom = Integer.parseInt(request.getParameter("topbottom"));
+	String icon = request.getParameter("icon");
+	int sel1 = Integer.parseInt(request.getParameter("sel1"));
+	
+
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="http://pinnpublic.dothome.co.kr/cdn/example-min.css">
+<style>
+
+	.button-container {
+	
+		display: flex;
+		flex-wrap: wrap;
+		justifiy-content: flex-start;
+	
+	
+	}
+	
+	.button {
+	
+		
+		width : <%= width %>px;
+		height : <%= height %>px;
+		background-color : <%= color1 %>;
+		color : <%= color2 %>;
+		font-size : <%= fontsize %>px;
+		margin : <%= topbottom %>px <%= leftright %>px;
+		border : <%= sel1 == 1? "none" : "1px solid black" %>;
+
+	}
+	
+	
+	    .button:hover {
+        background-color: <%= color1 %>; /* 마우스가 버튼 위에 있을 때 배경색을 변경하지 않도록 수정 */
+        color: <%= color2 %>; /* 마우스가 버튼 위에 있을 때 글자색을 변경하지 않도록 수정 */
+    }
+	
+	
+
+</style>
+</head>
+<body>
+
+	<h1>결과</h1>
+	<table>
+		<tr>
+			<th>버튼</th>
+		</tr>
+		<div class="button-container">
+		<%
+			for (int i = 0; i< count; i++) {
+		%>
+		<tr>
+			<td>
+				<button class="button">
+				<% if (!icon.equals("none")) { %>
+					<i class="fa-solid fa-<%= icon %>"></i>
+				<% } %>
+				<%= txt %>
+				</button>
+				<% } %>
+			</td>
+		</tr>
+		</div>
+	</table>
+	
+	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+	<script>
+		
+	</script>
+</body>
+</html>

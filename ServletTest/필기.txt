@@ -341,3 +341,65 @@ session & application
 
 
 파일 업로드/다운로드
+
+단일 파일 업로드
+- "ex19_form.jsp"
+- "ex19_ok.jsp"
+
+다중 파일 업로드
+- "ex20_form.jsp"
+- "ex20_ok.jsp"
+
+이미지 뷰어
+- "ex21.jsp"
+- "ex21_ok.jsp"
+- "ex21_del.jsp"
+
+
+
+톰캣 8.5 > JDK ~ 1.8
+
+JDK 11 > 톰캣 9.0
+
+톰캣 변경하기
+
+64-bit Windows zip (pgp, sha512)> 압축풀기 > DEV 폴더로 이동 > 똑같이 설치 > 
+만약에 빨간 X 표시 뜨면 BUILDPATH 안된 것이므로  BUILDPATH  > SERVER RUNTIME 추가하기
+
+
+EL + JSTL
+- 가독성 향상
+- JSP 페이지에서 자바를 사용하지 말자!!
+
+EL, Expression Language
+- <%= %> 기능을 대신하기 위해 만들어진 언어 > 가독성, 편의성
+- "ex22_el.jsp"
+
+JSTL
+- 액션 태그
+- 자바의 프로그래밍 구문을 태그 형태로 제공
+- ex23_jstl.jsp
+- 설치  jar  파일
+https://mvnrepository.com/search?q=jstl
+https://mvnrepository.com/artifact/javax.servlet/jstl
+1.2 버전 > jar파일 다운 > web-inf > lib > 붙여넣기
+
+
+<?xml ?> 태그를 마음대로 만들 수 있다 > 데이터 합칠 때 문제가 된다 >   식별을 위한 패키지를 붙일 수 있다 > 전세계에서 유일해야 한다 > 도메인을 적기로 한다
+<list xmlns="유일한 식별자">
+예: <list xmlns="http://naver.com">
+	<http://naver.com:item>노트북<http://naver.com:item>
+	<http://naver.com:item>마우스<http://naver.com:item>
+	<http://naver.com:item>키보드<http://naver.com:item>
+</list>
+
+너무 길어서 별명을 붙이기로 하다
+<list xmlns:aaa="http://naver.com">
+	<aaa:item>노트북</aaa:item>
+	<aaa:item>마우스</aaa:item>
+	<aaa:item>키보드</aaa:item>
+</list>
+
+합칠 때 충돌이 안나게 네임스페이스를 미리 정의
+<list xmlns:aaa="http://naver.com" xmlns:bbb="http://google.com">
+
