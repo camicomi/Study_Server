@@ -10,6 +10,13 @@ public class MemoDTO {
 	// 3. DTO member name
 	
 	private String seq;
+	private String name;
+	private String pw;
+	private String memo;
+	private String regdate;
+	
+	
+
 	public String getSeq() {
 		return seq;
 	}
@@ -40,10 +47,7 @@ public class MemoDTO {
 	public void setRegdate(String regdate) {
 		this.regdate = regdate;
 	}
-	private String name;
-	private String pw;
-	private String memo;
-	private String regdate;
+
 	
 	
 

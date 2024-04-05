@@ -2,22 +2,30 @@
     pageEncoding="UTF-8"%>
 <%
 
+	//1. 데이터 가져오기
+	//2. 업무 처리
+	//3. 결과 출력
+	
+	//1.
 	request.setCharacterEncoding("UTF-8");
 
-	int width = Integer.parseInt(request.getParameter("width"));
-	int height = Integer.parseInt(request.getParameter("height"));
-	String txt = request.getParameter("txt");
-	String color1 = request.getParameter("color1");
-	String color2 = request.getParameter("color2");
-	int fontsize = Integer.parseInt(request.getParameter("fontsize"));
+	String width = request.getParameter("width");
+	String height = request.getParameter("height");
+	String text = request.getParameter("text");
+	String backgroundcolor = request.getParameter("backgroundcolor");
+	String color = request.getParameter("color");
+	String fontsize = request.getParameter("fontsize");
 	int count = Integer.parseInt(request.getParameter("count"));
-	int leftright = Integer.parseInt(request.getParameter("leftright"));
-	int topbottom = Integer.parseInt(request.getParameter("topbottom"));
+	String leftright = request.getParameter("leftright");
+	String topbottom = request.getParameter("topbottom");
 	String icon = request.getParameter("icon");
-	int sel1 = Integer.parseInt(request.getParameter("sel1"));
-	
+	String isborder = request.getParameter("isborder");
+	String borderwidth = request.getParameter("borderwidth");
+	String bordercolor = request.getParameter("bordercolor");
+	String borderstyle = request.getParameter("borderstyle");
+	String borderradius = request.getParameter("borderradius");
 
-%>
+%>        
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,50 +33,66 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="http://pinnpublic.dothome.co.kr/cdn/example-min.css">
 <style>
-
-
 	.button {
-	
+		 
+		width: <%= width %>px;
+		height: <%= height %>px;
+		background-color: <%= backgroundcolor %>;
+		color: <%= color %>;
+		font-size: <%= fontsize %>px;
+		margin: <%= topbottom %>px <%= leftright %>px;
 		
-		width : <%= width %>px;
-		height : <%= height %>px;
-		background-color : <%= color1 %>;
-		color : <%= color2 %>;
-		font-size : <%= fontsize %>px;
-		margin : <%= topbottom %>px <%= leftright %>px;
-		border : <%= sel1 == 1? "none" : "1px solid black" %>;
-
+		<% if (isborder.equals("n")) { %>
+			border: 0;
+		<% } else { %>
+			border: <%= borderwidth %>px <%= bordercolor %> <%= borderstyle %>;
+			border-radius: <%= borderradius %>px;
+		<% } %>
+		
 	}
-	
-
 </style>
 </head>
 <body>
-
+	<!--  -->
 	<h1>결과</h1>
-	<table>
+		
+	<table class="vertical">
 		<tr>
 			<th>버튼</th>
 		</tr>
-		<%
-			for (int i = 0; i< count; i++) {
-		%>
 		<tr>
 			<td>
-				<button class="button">
-				<% if (!icon.equals("none")) { %>
-					<i class="fa-solid fa-<%= icon %>"></i>
-				<% } %>
-				<%= txt %>
-				</button>
+				<%-- 
+				<button class="button" style="width:<%= width %>px;height:<%= height %>px;">Button</button> 
+				--%>
+				<%-- 
+				<button class="button"><%= text %></button> 
+				--%>
+
+				<% for (int i=0; i<count; i++) { %>
+					<button class="button">
+						<% if (!icon.equals("none")) { %>
+							<span class="<%= icon %>"></span>
+						<% } %>
+						<%= text %>
+					</button>
 				<% } %>
 			</td>
 		</tr>
 	</table>
-	
 	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 	<script>
 		
 	</script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+

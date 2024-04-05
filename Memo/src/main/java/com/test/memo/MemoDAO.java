@@ -74,10 +74,10 @@ public class MemoDAO {
 		
 		return null;		
 	}
-
+	
 	public MemoDTO get(String seq) {
 		
-		try { 
+		try {
 			
 			String sql = "select * from tblMemo where seq = ?";
 			
@@ -87,7 +87,7 @@ public class MemoDAO {
 			rs = pstat.executeQuery();
 			
 			if (rs.next()) {
-				// 레코드 1개 > MemoDTO 1개
+				//레코드 1개 > MemoDTO 1개
 				MemoDTO dto = new MemoDTO();
 				
 				dto.setSeq(rs.getString("seq"));
@@ -96,15 +96,13 @@ public class MemoDAO {
 				dto.setRegdate(rs.getString("regdate"));
 				
 				return dto;
-				
 			}
 			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		
-		return null;
-		
+		return null;		
 	}
 	
 	public int edit(MemoDTO dto) {
@@ -114,9 +112,8 @@ public class MemoDAO {
 			String sql = "update tblMemo set memo = ? where seq = ?";
 			
 			pstat = conn.prepareStatement(sql);
-			pstat.setString(1, dto.getName());
-			pstat.setString(2, dto.getPw());
-			pstat.setString(3, dto.getMemo());
+			pstat.setString(1, dto.getMemo());
+			pstat.setString(2, dto.getSeq());
 
 			//insert 성공(1) 실패(0)
 			return pstat.executeUpdate();			
@@ -128,4 +125,45 @@ public class MemoDAO {
 		return 0;
 	}
 	
+	public boolean check(MemoDTO dto) {
+		
+		try {
+			
+			String sql = "select count(*) as cnt from tblMemo where seq = ? and pw = ?";
+			
+			pstat = conn.prepareStatement(sql);
+			pstat.setString(1, dto.getSeq());
+			pstat.setString(2, dto.getPw());
+			
+			rs = pstat.executeQuery();
+			
+			if (rs.next()) {
+				return rs.getInt("cnt") == 1 ? true : false;
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return false;		
+	}
+	
+	public int del(String seq) {
+		
+		try {
+			
+			String sql = "delete from tblMemo where seq = ?";
+			
+			pstat = conn.prepareStatement(sql);
+			pstat.setString(1, seq);
+
+			return pstat.executeUpdate();		
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return 0;
+	}
+
 }

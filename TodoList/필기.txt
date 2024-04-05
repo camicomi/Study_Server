@@ -1,0 +1,32 @@
+
+Todo List
+- New > "TodoList" > "todo" + web.xml
+
+- TodoList > script.sql
+- lib > ojdbc8.jar 
+	   > jstl-1.2.jar
+	   > lombok.jar
+	   > util.jar
+	   
+- "com.test.todo" > "Main.java"
+						> "AddOk.java"
+						> "CheckOk.java"
+						> "DelOk.java"
+						
+- "com.test.todo.model" > "TodoDAO.java"
+								  > "TodoDTO.java"
+								DB 처리 기능을 먼저 만들고 화면 구현 작업 
+								
+								// 간이테스트
+								com.test.todo.test  
+								> "TodoDAOTest.java" 또는
+								JUnit 단위테스트 툴 사용 
+								> "DAOTest.java" (
+								프로젝트 우클릭 > Buildpath > ClassPath > Add Library > JUnit 추가
+								파일 생성 > JAVA 목록 > JUnit > Junit test Case > next > name: DAOTest > "DAOTest.java" 생성됨
+
+- WEB-INF > "views" > "main.jsp"
+							> "addok.jsp"
+							> "checkok.jsp"
+							> "delok.jsp"
+- web.xml  

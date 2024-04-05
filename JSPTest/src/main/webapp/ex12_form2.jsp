@@ -6,102 +6,126 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="http://pinnpublic.dothome.co.kr/cdn/example-min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script src="https://kit.fontawesome.com/7121714adf.js"></script>
 <style>
-	
+	#borderbox {
+		display: none;
+	}
+	#borderbox > div {
+		margin-bottom: 5px;
+	}
 </style>
 </head>
 <body>
-	<!-- 문제 http://192.168.10.30:8090/jsp/ex12_form2.jsp -->
+	<!--  -->
 	<h1>버튼 만들기</h1>
+		
 	<form method="POST" action="ex12_ok2.jsp">
-	<table>
-		<tr>
-			<th>너비(px)</th>
-			<td>
-				<input type="number" min="20" max="300" step="10" value="120" name="width"> 
-			</td>
-		</tr>
-		<tr>
-			<th>높이(px)</th>
-			<td>
-				<input type="number" min="10" max="200" step="10"  value="30" name="height">
-			</td>
-		</tr>
-		<tr>
-			<th>텍스트</th>
-			<td>
-				<input type="text" value="Button" name="txt">
-			</td>
-		</tr>
-		<tr>
+		<table id="tbl" class="vertical">
+			<tr>
+				<th>너비(px)</th>
+				<td>
+					<input type="number" name="width" min="20" max="300" step="10" value="120" class="short">
+				</td>
+			</tr>
+			<tr>
+				<th>높이(px)</th>
+				<td>
+					<input type="number" name="height" min="10" max="200" step="10" value="30" class="short">
+				</td>
+			</tr>
+			<tr>
+				<th>텍스트</th>
+				<td>
+					<input type="text" name="text" class="short" value="Button">
+				</td>
+			</tr>
+			<tr>
 			<th>배경색</th>
-			<td>
-				<input type="color" name="color1">
-			</td>
+			<td><input type="color" name="backgroundcolor" value="#FFFFFF"></td>
 		</tr>
 		<tr>
 			<th>글자색</th>
-			<td>
-				<input type="color" name="color2">
-			</td>
+			<td><input type="color" name="color" value="#000000"></td>
 		</tr>
 		<tr>
 			<th>글자 크기(px)</th>
-			<td>
-				<input type="number" min="10" max="100" value="16" name="fontsize">
-			</td>
+			<td><input type="number" name="fontsize" min="10" max="100" value="16"></td>
 		</tr>
 		<tr>
 			<th>버튼 개수(ea)</th>
-			<td>
-				<input type="number"  min="1" max="30" value="1" name="count">
-			</td>
+			<td><input type="number" name="count" min="1" max="30" value="1"></td>
 		</tr>
 		<tr>
 			<th>버튼 간격</th>
 			<td>
-				<div>
-				좌우 간격 : <input type="range" min="0" max="50" value="0" name="leftright">
-				</div>
-				<div>
-				상하 간격 : <input type="range" min="0" max="50" value="0" name="topbottom">
-				</div>
+				<div>좌우 간격 : <input type="range" min="0" max="50" value="0" name="leftright"></div>
+				<div>상하 간격 : <input type="range" min="0" max="50" value="0" name="topbottom"></div>
 			</td>
 		</tr>
 		<tr>
 			<th>아이콘</th>
 			<td>
-			<label>
-			<!--  https://fontawesome.com/  -->
 				<input type="radio" name="icon" value="none" checked> 없음
-				<input type="radio" name="icon" value="house"> <i class="fa-solid fa-house"></i>
-				<input type="radio" name="icon" value="picture"> <i class="fa-solid fa-image"></i>
-				<input type="radio" name="icon" value="map"> <i class="fa-solid fa-location-dot"></i>
-				<input type="radio" name="icon" value="github"> <i class="fa-brands fa-github"></i>
-				<input type="radio" name="icon" value="clip"> <i class="fa-solid fa-paperclip"></i>
-			</label>
+				<input type="radio" name="icon" value="fa-solid fa-house"> <i class="fa-solid fa-house"></i>
+				<input type="radio" name="icon" value="fa-solid fa-image"> <i class="fa-solid fa-image"></i></span>
+				<input type="radio" name="icon" value="fa-solid fa-location-dot"> <i class="fa-solid fa-location-dot"></i></span>
+				<input type="radio" name="icon" value="fa-brands fa-github"> <i class="fa-brands fa-github"></i>
+				<input type="radio" name="icon" value="fa-solid fa-paperclip"> <i class="fa-solid fa-paperclip"></i>
 			</td>
 		</tr>
 		<tr>
 			<th>테두리</th>
 			<td>
-				<select name="sel1">
-					<option value="1">감추기</option>
-					<option value="2">보이기</option>
-				</select>
+				<div>
+					<select name="isborder" id="isborder" class="form-control sm">
+						<option value="n">감추기</option>
+						<option value="y">보이기</option>
+					</select>
+				</div>
+				<div id="borderbox">
+					<div>두께(px) : <input type="number" name="borderwidth" min="0" max="10" value="1" class="form-control sm inline right"></div>
+					<div>색상 : <input type="color" name="bordercolor" value="#000000" class="form-control sm"></div>
+					<div>
+						스타일 :
+						<select name="borderstyle" class="form-control sm inline">
+							<option value="solid">실선</option>
+							<option value="dashed">쇄선</option>
+							<option value="dotted">점선</option>
+						</select>	
+					</div>
+					<div>
+						모서리(px) : <input type="number" name="borderradius" min="0" max="50" value="0" class="form-control sm inline right">
+					</div>
+				</div>
 			</td>
 		</tr>
-			
-	</table>
-	<div>
-		<input type="submit" value="보내기">
-	</div>
-</form>
+		</table>
+		<div>
+			<input type="submit" value="만들기"
+				class="btn btn-success">
+		</div>
+	</form>
 	
 	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 	<script>
-		
+		$("#isborder").change(function() {
+			if ($(this).val() == "y") {
+				$("#borderbox").show();
+			} else {
+				$("#borderbox").hide();
+			}
+		});
 	</script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+

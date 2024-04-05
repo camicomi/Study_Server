@@ -14,7 +14,9 @@
 	ArrayList<MemoDTO> list = dao.list();
 	
 	for (MemoDTO dto : list) {
+		
 		dto.setMemo(dto.getMemo().replace("\r\n", "<br>"));
+		
 	}
 	
 %>    
@@ -37,15 +39,15 @@
 	<div id="list">
 		<% for (MemoDTO dto : list) { %>
 		<div class="item">
-			<!-- <%= dto.getMemo().replace("\r\n", "<br>") %> 출력 외 작업은 하지 않는 것이 좋다. -->
 			<div><%= dto.getMemo() %></div>
 			<div>
 				<span><%= dto.getName() %></span>
+				/
 				<span><%= dto.getRegdate() %></span>
 			</div>
 			<div>
 				<button type="button" class="edit" onclick="location.href='/memo/edit.jsp?seq=<%= dto.getSeq() %>';">수정하기</button>
-				<button type="button" class="del" onclick="location.href='/memo/del.jsp';">삭제하기</button>
+				<button type="button" class="del" onclick="location.href='/memo/del.jsp?seq=<%= dto.getSeq() %>';">삭제하기</button>
 			</div>
 		</div><!-- .item -->
 		<% } %>
@@ -61,13 +63,4 @@
 	</script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
 
