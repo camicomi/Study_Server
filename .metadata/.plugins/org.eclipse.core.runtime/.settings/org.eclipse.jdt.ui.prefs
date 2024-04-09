@@ -4,7 +4,7 @@ eclipse.preferences.version=1
 org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.internal.ui.navigator.librariesnode=true
 org.eclipse.jdt.ui.formatterprofiles.version=22
-org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="java-statements" deleted\="false" description\="try catch block" enabled\="true" id\="org.eclipse.jdt.ui.templates.try" name\="try_catch">try {\r\n\t${line_selection}${cursor}\r\n} catch (${Exception} ${exception_variable_name}) {\r\n\tSystem.out.println("${primary_type_name}.${enclosing_method}");\t\r\n\te.printStackTrace();\r\n}</template></templates>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="java-statements" deleted\="false" description\="try catch block" enabled\="true" id\="org.eclipse.jdt.ui.templates.try" name\="try_catch">try {\r\n\t${line_selection}${cursor}\r\n} catch (${Exception} ${exception_variable_name}) {\r\n\tSystem.out.println("${primary_type_name}.${enclosing_method}");\t\r\n\te.printStackTrace();\r\n}</template><template autoinsert\="true" context\="java-statements" deleted\="false" description\="" enabled\="true" name\="dispatcher">\t\tRequestDispatcher dispatcher \= req.getRequestDispatcher("/WEB-INF/views/${page}.jsp");&\#13;\r\n\t\tdispatcher.forward(req, resp);</template></templates>
 spelling_locale_initialized=true
 typefilter_migrated_2=true
 useAnnotationsPrefPage=true

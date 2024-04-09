@@ -1,0 +1,70 @@
+
+새 프로젝트
+- New > "OpenAPITest" + "api" + web.xml
+
+네이버 개발자 센터
+
+- "com.test.api" > "Ex01.java"
+- WEB-INF > "views" > "ex01.jsp"
+
+- lib > jstl, lombok
+
+
+JSON 표기법
+- 대부분은 JavaScript 객체 리터럴과 동일하다.
+- 프로퍼터명은 반드시 쌍따옴표로 묶는다.
+- 따옴표는 반드시 쌍따옴표를 사용한다.
+- 프로퍼티 함수를 가질 수 없다. > 데이터 저장용 or 전달용
+
+const obj = {
+	name: '홍길동',
+	age: 20,
+	address: '서울시',
+	hello: function() {}
+};
+
+//JSON
+{
+	"name": "홍길동",
+	"age": 20,
+	"address": "서울시"
+}
+
+
+지도 Open API
+- Google Map
+- Naver Map
+- Kakao Map
+
+- "com.test.api.map" > "Ex01.java"
+                     > "Add.java"
+                     
+- views > "map" > "ex01.jsp"
+				> "ex02.jsp"
+				> "ex03.jsp"
+				> "ex04.jsp" > 읽기
+				> "ex05.jsp" > 쓰기
+				> "ex06.jsp"
+
+- OpenAPITest > "script.sql"
+
+- com.test.api.model > "MapDAO.java"
+                     > "MarkerDTO.java"
+
+
+
+https://apis.map.kakao.com/web/ (Sample)
+
+라이브러리 or API
+- 지도
+- 그리드(표) // javascript grid 등.
+- 달력 
+- 차트 // hightchart
+// https://www.highcharts.com/demo?_gl=1*bsijfw*_up*MQ..&gclid=EAIaIQobChMI1o6tqPizhQMVKck8Ah0ukwRLEAAYASAAEgLmffD_BwE#highcharts-demo-column-and-bar-charts
+//JSFiddle, Codepen
+차트
+- "com.test.api.chart" > "Ex01.java"
+- views > "chart" > "ex01.jsp"
+
+
+

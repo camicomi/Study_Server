@@ -12,34 +12,29 @@ import com.test.todo.model.TodoDAO;
 import com.test.todo.model.TodoDTO;
 
 class DAOTest {
-	
-	// 동시실행 안되도록
+
 	@Disabled
 	@Test
 	void testAddTodo() {
 		
 		TodoDAO dao = new TodoDAO();
-		
 		int result = dao.add("또 할일입니다.");
 		
-		// 기대값, 실제얻은값
-		assertEquals(1, result);
-		
+		System.out.println("add");
+		assertEquals(2, result);
 		
 	}
 	
-	
 	@Test
-	void testListTodo() { 
+	void testListTodo() {
 		
 		TodoDAO dao = new TodoDAO();
 		
-		ArrayList<TodoDTO> list = dao.list();
-	
-		// System.out.println(list == null);
+		ArrayList<TodoDTO> list = dao.list("y");
+		
+		System.out.println(list == null);
 		
 		assertNotNull(list);
-		
 		
 	}
 	
@@ -52,10 +47,7 @@ class DAOTest {
 		int result = dao.checkTodo("1");
 		
 		assertEquals(1, result);
-	
 		
 	}
-
-
 
 }

@@ -19,8 +19,8 @@ public class TodoDAO {
 		this.conn = DBUtil.open();
 	}
 	
-	// 할일 등록하기
-	public int add(String todo) { 
+	//할일 등록하기
+	public int add(String todo) {
 		
 		try {
 			
@@ -29,22 +29,22 @@ public class TodoDAO {
 			pstat = conn.prepareStatement(sql);
 			pstat.setString(1, todo);
 			
-			return pstat.executeUpdate();
+			return pstat.executeUpdate();			
 			
 		} catch (Exception e) {
 			System.out.println("TodoDAO.add");
 			e.printStackTrace();
 		}
 		
-		return 0;
+		return 0;		
 	}
 	
-	// 목록 보기
-	public ArrayList<TodoDTO> list() {
+	//목록 보기
+	public ArrayList<TodoDTO> list(String state) {
 		
 		try {
 			
-			String sql = "select * from tblTodo";
+			String sql = String.format("select * from tblTodo where state = '%s' order by seq desc", state);
 			
 			stat = conn.createStatement();
 			rs = stat.executeQuery(sql);
@@ -52,7 +52,7 @@ public class TodoDAO {
 			ArrayList<TodoDTO> list = new ArrayList<TodoDTO>();
 			
 			while (rs.next()) {
-				// 레코드 1개 > TodoDTO 1개
+				//레코드 1개 > TodoDTO 1개
 				TodoDTO dto = new TodoDTO();
 				
 				dto.setSeq(rs.getString("seq"));
@@ -61,7 +61,6 @@ public class TodoDAO {
 				dto.setRegdate(rs.getString("regdate"));
 				
 				list.add(dto);
-				
 			}
 			
 			return list;
@@ -71,22 +70,20 @@ public class TodoDAO {
 			e.printStackTrace();
 		}
 		
-		return null;
-		
-		
+		return null;		
 	}
 	
-	// 할일 체크하기(했다, 안했다)
+	
+	//할일 체크하기(했다. 안했다.)
 	public int checkTodo(String seq) {
 		
 		try {
 			
-			// n > y
-			// y > n
+			//n > y
+			//y > n
 			String sql = "select state from tblTodo where seq = ?";
-			
 			pstat = conn.prepareStatement(sql);
-			pstat.setString(1,  seq);
+			pstat.setString(1, seq);
 			
 			rs = pstat.executeQuery();
 			
@@ -111,17 +108,14 @@ public class TodoDAO {
 			pstat.setString(1, state);
 			pstat.setString(2, seq);
 			
-			return pstat.executeUpdate();
+			return pstat.executeUpdate();			
 			
 		} catch (Exception e) {
 			System.out.println("TodoDAO.checkTodo");
 			e.printStackTrace();
 		}
 		
-		// 행위자체 실패
-		return 0;
-		
-		
+		return 0;		
 	}
 
 }
