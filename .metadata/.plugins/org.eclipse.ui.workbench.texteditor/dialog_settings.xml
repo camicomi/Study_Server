@@ -8,24 +8,35 @@
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="남자"/>
+		<item key="selection" value="seq:"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="남자"/>
-			<item value="lib"/>
-			<item value="디렉토리"/>
-			<item value="elfprxhfl"/>
+			<item value="seq:"/>
+			<item value="seq : seq"/>
+			<item value="이전 목록"/>
+			<item value="writer"/>
+			<item value="6"/>
+			<item value="selPlace"/>
+			<item value="GET"/>
+			<item value="tblAdd textarea"/>
+			<item value="function load"/>
+			<item value="failed"/>
+			<item value="장소 1개"/>
+			<item value="load()"/>
+			<item value="m1.set"/>
+			<item value="list full"/>
+			<item value="#list"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="807"/>
-		<item key="DIALOG_Y_ORIGIN" value="264"/>
+		<item key="DIALOG_X_ORIGIN" value="1041"/>
+		<item key="DIALOG_Y_ORIGIN" value="486"/>
 		<item key="DIALOG_WIDTH" value="322"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
