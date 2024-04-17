@@ -26,7 +26,9 @@
 	</filter-mapping>
 	
 	
-		<filter>
+	
+	
+	<filter>
 		<filter-name>auth</filter-name>
 		<filter-class>com.test.toy.filter.AuthFilter</filter-class>
 	</filter>
@@ -36,8 +38,16 @@
 		<url-pattern>*.do</url-pattern>
 	</filter-mapping>
 	
+
 	
 	
 </web-app>
+
+
+
+
+
+
+
 
 

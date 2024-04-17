@@ -14,6 +14,42 @@ public class BoardDTO {
 	
 	private String name; //작성자
 	private double isnew;//최신글
+	
+	private String commentcount; //댓글수 
+	
+	private int thread; // 답변형
+	private int depth;
+	
+	private String attach; //첨부파일
+	
+	
+	
+	
+	
+	public String getAttach() {
+		return attach;
+	}
+	public void setAttach(String attach) {
+		this.attach = attach;
+	}
+	public int getThread() {
+		return thread;
+	}
+	public void setThread(int thread) {
+		this.thread = thread;
+	}
+	public int getDepth() {
+		return depth;
+	}
+	public void setDepth(int depth) {
+		this.depth = depth;
+	}
+	public String getCommentcount() {
+		return commentcount;
+	}
+	public void setCommentcount(String commentcount) {
+		this.commentcount = commentcount;
+	}
 	public String getSeq() {
 		return seq;
 	}

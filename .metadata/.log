@@ -1,14 +1,14 @@
-!SESSION 2024-04-16 08:58:19.381 -----------------------------------------------
+!SESSION 2024-04-17 08:56:07.349 -----------------------------------------------
 eclipse.buildId=4.24.0.I20220607-0700
 java.version=11.0.21
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
-This is a continuation of log file C:\class\code\server\.metadata\.bak_4.log
-Created Time: 2024-04-16 17:28:04.747
+This is a continuation of log file C:\class\code\server\.metadata\.bak_3.log
+Created Time: 2024-04-17 17:42:42.080
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:04.747
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:42:42.080
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -19,275 +19,22 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:06.566
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!ENTRY org.eclipse.ui 4 0 2024-04-17 17:42:43.921
+!MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:08.453
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:09.751
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:10.475
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:29.871
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:32.953
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:34.305
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:36.794
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:39.917
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:42.144
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:43.237
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:44.105
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:46.855
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:28:50.450
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$ActivationListener.windowActivated(JavaEditor.java:1216)
-	at org.eclipse.ui.internal.Workbench$8.run(Workbench.java:1005)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.Workbench.fireWindowActivated(Workbench.java:1002)
-	at org.eclipse.ui.internal.WorkbenchWindow$6.shellActivated(WorkbenchWindow.java:2459)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:92)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1521)
-	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2314)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
-	at org.eclipse.swt.widgets.Control.forceFocus(Control.java:1093)
-	at org.eclipse.swt.widgets.Control.setFocus(Control.java:3441)
-	at org.eclipse.swt.widgets.Composite.setFocus(Composite.java:1081)
-	at org.eclipse.swt.custom.StyledText.setFocus(StyledText.java:9247)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.setFocus(AbstractTextEditor.java:6180)
-	at org.eclipse.ui.texteditor.StatusTextEditor.setFocus(StatusTextEditor.java:149)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.setFocus(JavaEditor.java:2353)
-	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.delegateSetFocus(CompatibilityPart.java:226)
-	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:323)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:245)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:147)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.focusGui(PartRenderingEngine.java:790)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:765)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:680)
-	at org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.activate(AbstractPartRenderer.java:97)
-	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.lambda$0(ContributedPartRenderer.java:63)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1532)
-	at org.eclipse.swt.widgets.Shell.WM_MOUSEACTIVATE(Shell.java:2462)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4790)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
-	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
@@ -310,7 +57,45 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:50.659
+!ENTRY org.eclipse.ui 4 0 2024-04-17 17:42:43.929
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:42:43.969
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -321,7 +106,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:51.202
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:43:25.565
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -332,7 +117,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:52.639
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:43:26.538
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -343,7 +128,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:56.305
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:43:28.261
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -354,7 +139,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:28:59.429
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:43:31.051
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -365,7 +150,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:00.617
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:43:31.842
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -376,7 +161,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:01.701
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:43:32.877
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -387,7 +172,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:02.946
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:43:37.442
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -398,7 +183,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:07.297
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:43:38.829
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -409,73 +194,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:11.320
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:12.228
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:14.418
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:15.836
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:19.836
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:22.719
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:29:47.740
+!ENTRY org.eclipse.ui.workbench 4 2 2024-04-17 17:44:25.019
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -530,7 +249,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:29:49.079
+!ENTRY org.eclipse.ui.workbench 4 2 2024-04-17 17:44:28.762
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -592,7 +311,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:50.157
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:44:35.294
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -603,7 +322,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:54.533
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:44:37.417
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -614,326 +333,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:55.812
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:56.656
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:29:58.717
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:30:00.518
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:30:01.460
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:30:02.170
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:30:11.906
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:30:17.270
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:30:18.091
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:30:25.647
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:30:27.973
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:30:30.705
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:30:31.895
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:30:42.776
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:30:53.617
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:30:56.214
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:30:59.943
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:31:04.683
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:31:06.345
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:31:09.610
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:31:11.064
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:31:12.164
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:31:15.759
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:31:18.420
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:31:20.789
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:31:24.287
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:31:25.649
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:31:28.389
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:31:29.655
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:31:54.142
+!ENTRY org.eclipse.ui.workbench 4 2 2024-04-17 17:45:24.085
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -981,271 +381,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:31:54.838
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:33:23.085
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui 4 0 2024-04-16 17:33:23.411
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2024-04-16 17:33:23.419
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2024-04-16 17:33:23.491
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:33:24.177
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:33:24.753
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$ActivationListener.windowActivated(JavaEditor.java:1216)
-	at org.eclipse.ui.internal.Workbench$8.run(Workbench.java:1005)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.Workbench.fireWindowActivated(Workbench.java:1002)
-	at org.eclipse.ui.internal.WorkbenchWindow$6.shellActivated(WorkbenchWindow.java:2459)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:92)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1521)
-	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2314)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.DestroyWindow(Native Method)
-	at org.eclipse.swt.widgets.Control.destroyWidget(Control.java:782)
-	at org.eclipse.swt.widgets.Shell.destroyWidget(Shell.java:732)
-	at org.eclipse.swt.widgets.Widget.release(Widget.java:831)
-	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
-	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:392)
-	at org.eclipse.jface.window.Window.close(Window.java:335)
-	at org.eclipse.jface.dialogs.Dialog.close(Dialog.java:988)
-	at org.eclipse.wst.server.ui.internal.actions.OptionsMessageDialog.buttonPressed(OptionsMessageDialog.java:100)
-	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
-	at org.eclipse.jface.window.Window.open(Window.java:799)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate$6.run(RunOnServerActionDelegate.java:742)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4790)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.openRestartDialog(RunOnServerActionDelegate.java:737)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerLaunchConfigurationDelegate.launch(RunOnServerLaunchConfigurationDelegate.java:165)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:711)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:398)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:766)
-	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:43)
-	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:58)
-	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:419)
-	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:262)
-	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:188)
-	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:100)
-	at org.eclipse.debug.ui.actions.RelaunchLastAction.runInternal(RelaunchLastAction.java:122)
-	at org.eclipse.debug.ui.actions.RelaunchLastAction.runWithEvent(RelaunchLastAction.java:116)
-	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:281)
-	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
-	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
-	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
-	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1798)
-	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5155)
-	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4778)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:33:54.630
+!ENTRY org.eclipse.ui.workbench 4 2 2024-04-17 17:45:32.435
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -1293,73 +429,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:33:57.883
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:35:58.023
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:35:59.159
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:36:02.376
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:36:06.822
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:37:11.400
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:37:15.580
+!ENTRY org.eclipse.ui.workbench 4 2 2024-04-17 17:45:35.126
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -1407,7 +477,18 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:37:42.649
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:45:35.309
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2024-04-17 17:46:00.905
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -1455,179 +536,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:37:43.763
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:37:48.872
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:37:51.819
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:37:52.800
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:37:54.082
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:37:54.236
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$ActivationListener.windowActivated(JavaEditor.java:1216)
-	at org.eclipse.ui.internal.Workbench$8.run(Workbench.java:1005)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.Workbench.fireWindowActivated(Workbench.java:1002)
-	at org.eclipse.ui.internal.WorkbenchWindow$6.shellActivated(WorkbenchWindow.java:2459)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:92)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1521)
-	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2314)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.DestroyWindow(Native Method)
-	at org.eclipse.swt.widgets.Control.destroyWidget(Control.java:782)
-	at org.eclipse.swt.widgets.Shell.destroyWidget(Shell.java:732)
-	at org.eclipse.swt.widgets.Widget.release(Widget.java:831)
-	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
-	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:392)
-	at org.eclipse.jface.window.Window.close(Window.java:335)
-	at org.eclipse.jface.dialogs.Dialog.close(Dialog.java:988)
-	at org.eclipse.wst.server.ui.internal.actions.OptionsMessageDialog.buttonPressed(OptionsMessageDialog.java:100)
-	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
-	at org.eclipse.jface.window.Window.open(Window.java:799)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate$6.run(RunOnServerActionDelegate.java:742)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4790)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.openRestartDialog(RunOnServerActionDelegate.java:737)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerLaunchConfigurationDelegate.launch(RunOnServerLaunchConfigurationDelegate.java:165)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:711)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:398)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:766)
-	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:43)
-	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:58)
-	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:419)
-	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:262)
-	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:188)
-	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:100)
-	at org.eclipse.debug.ui.actions.RelaunchLastAction.runInternal(RelaunchLastAction.java:122)
-	at org.eclipse.debug.ui.actions.RelaunchLastAction.runWithEvent(RelaunchLastAction.java:116)
-	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:281)
-	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
-	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
-	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
-	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1798)
-	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5155)
-	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4778)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:38:31.219
+!ENTRY org.eclipse.ui.workbench 4 2 2024-04-17 17:46:05.443
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -1675,7 +584,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:38:33.727
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:46:08.573
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -1686,7 +595,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:40:46.625
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:46:09.761
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -1697,7 +606,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:40:47.354
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:46:17.961
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -1708,7 +617,51 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:40:47.953
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:46:20.679
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:46:21.710
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:46:22.925
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-04-17 17:46:26.783
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2024-04-17 17:46:51.380
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -1731,251 +684,9 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
 	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
 	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.DestroyWindow(Native Method)
-	at org.eclipse.swt.widgets.Control.destroyWidget(Control.java:782)
-	at org.eclipse.swt.widgets.Shell.destroyWidget(Shell.java:732)
-	at org.eclipse.swt.widgets.Widget.release(Widget.java:831)
-	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
-	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:392)
-	at org.eclipse.jface.window.Window.close(Window.java:335)
-	at org.eclipse.jface.dialogs.Dialog.close(Dialog.java:988)
-	at org.eclipse.wst.server.ui.internal.actions.OptionsMessageDialog.buttonPressed(OptionsMessageDialog.java:100)
-	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
-	at org.eclipse.jface.window.Window.open(Window.java:799)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate$6.run(RunOnServerActionDelegate.java:742)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4790)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.openRestartDialog(RunOnServerActionDelegate.java:737)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerLaunchConfigurationDelegate.launch(RunOnServerLaunchConfigurationDelegate.java:165)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:711)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:398)
-	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:766)
-	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:43)
-	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:58)
-	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:419)
-	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:262)
-	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:188)
-	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:100)
-	at org.eclipse.debug.ui.actions.RelaunchLastAction.runInternal(RelaunchLastAction.java:122)
-	at org.eclipse.debug.ui.actions.RelaunchLastAction.runWithEvent(RelaunchLastAction.java:116)
-	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:281)
-	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
-	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
-	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
-	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1798)
-	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5155)
-	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4778)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:40:55.333
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$ActivationListener.windowActivated(JavaEditor.java:1216)
-	at org.eclipse.ui.internal.Workbench$8.run(Workbench.java:1005)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.Workbench.fireWindowActivated(Workbench.java:1002)
-	at org.eclipse.ui.internal.WorkbenchWindow$6.shellActivated(WorkbenchWindow.java:2459)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:92)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1521)
-	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2314)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:40:59.629
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:41:00.384
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:41:28.510
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$ActivationListener.windowActivated(JavaEditor.java:1216)
-	at org.eclipse.ui.internal.Workbench$8.run(Workbench.java:1005)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.Workbench.fireWindowActivated(Workbench.java:1002)
-	at org.eclipse.ui.internal.WorkbenchWindow$6.shellActivated(WorkbenchWindow.java:2459)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:92)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1521)
-	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2314)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:41:29.870
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$ActivationListener.windowActivated(JavaEditor.java:1216)
-	at org.eclipse.ui.internal.Workbench$8.run(Workbench.java:1005)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.Workbench.fireWindowActivated(Workbench.java:1002)
-	at org.eclipse.ui.internal.WorkbenchWindow$6.shellActivated(WorkbenchWindow.java:2459)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:92)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1521)
-	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2314)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:506)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:506)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
 	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
 	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
@@ -2005,29 +716,7 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:41:31.061
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:41:34.412
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:42:04.011
+!ENTRY org.eclipse.ui.workbench 4 2 2024-04-17 17:47:17.397
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
@@ -2074,239 +763,3 @@ java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:42:04.709
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:42:12.031
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$ActivationListener.windowActivated(JavaEditor.java:1216)
-	at org.eclipse.ui.internal.Workbench$8.run(Workbench.java:1005)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.Workbench.fireWindowActivated(Workbench.java:1002)
-	at org.eclipse.ui.internal.WorkbenchWindow$6.shellActivated(WorkbenchWindow.java:2459)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:92)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1521)
-	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2314)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:42:19.687
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:42:51.581
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$ActivationListener.windowActivated(JavaEditor.java:1216)
-	at org.eclipse.ui.internal.Workbench$8.run(Workbench.java:1005)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.Workbench.fireWindowActivated(Workbench.java:1002)
-	at org.eclipse.ui.internal.WorkbenchWindow$6.shellActivated(WorkbenchWindow.java:2459)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:92)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1521)
-	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2314)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:43:01.936
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$ActivationListener.windowActivated(JavaEditor.java:1216)
-	at org.eclipse.ui.internal.Workbench$8.run(Workbench.java:1005)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.Workbench.fireWindowActivated(Workbench.java:1002)
-	at org.eclipse.ui.internal.WorkbenchWindow$6.shellActivated(WorkbenchWindow.java:2459)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:92)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1521)
-	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2314)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:43:04.720
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2024-04-16 17:43:11.669
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$ActivationListener.windowActivated(JavaEditor.java:1216)
-	at org.eclipse.ui.internal.Workbench$8.run(Workbench.java:1005)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.Workbench.fireWindowActivated(Workbench.java:1002)
-	at org.eclipse.ui.internal.WorkbenchWindow$6.shellActivated(WorkbenchWindow.java:2459)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:92)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1521)
-	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2314)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
-	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.core.jobs 4 2 2024-04-16 17:43:12.821
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: com.ibm.icu.text.UTF16.isSurrogate(C)Z
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

@@ -11,7 +11,7 @@
 </style>
 </head>
 <body>
-	<!-- edit.jsp > del.jsp -->
+	<!-- add.jsp > edit.jsp > del.jsp -->
 	<%@include file="/WEB-INF/views/inc/header.jsp" %>
 	
 	<div id="main">
@@ -19,14 +19,12 @@
 		<h1 class="sub">게시판 <small>삭제하기</small></h1>
 		
 		<form method="POST" action="/toy/board/del.do">
-		<div>
+		<div class="group">
 			<button type="button" class="back" onclick="location.href='/toy/board/view.do?seq=${seq}';">돌아가기</button>
 			<button type="submit" class="del primary">삭제하기</button>
 		</div>
 		
-		
 		<input type="hidden" name="seq" value="${seq}">
-		
 		</form>
 		
 	</div>

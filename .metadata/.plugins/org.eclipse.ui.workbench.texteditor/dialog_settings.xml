@@ -8,37 +8,37 @@
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="댓글"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="댓글"/>
-			<item value="이전"/>
-			<item value="vwBoard"/>
-			<item value="최신글"/>
-			<item value="board"/>
-			<item value="button"/>
-			<item value="seq:"/>
-			<item value="seq : seq"/>
-			<item value="이전 목록"/>
-			<item value="writer"/>
-			<item value="6"/>
-			<item value="selPlace"/>
-			<item value="GET"/>
-			<item value="tblAdd textarea"/>
-			<item value="function load"/>
+			<item value=" 해시"/>
+			<item value="목록"/>
+			<item value="dto.setDepth"/>
+			<item value="commentContent"/>
+			<item value=".after"/>
+			<item value="parents"/>
+			<item value="listComment"/>
+			<item value="페이지"/>
+			<item value="댓글 쓰기"/>
+			<item value="select a.*"/>
+			<item value="list.add"/>
+			<item value="recount"/>
+			<item value="게시물"/>
+			<item value="게시물 가져오기"/>
+			<item value="insert into"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="8"/>
-		<item key="DIALOG_Y_ORIGIN" value="8"/>
+		<item key="DIALOG_X_ORIGIN" value="-646"/>
+		<item key="DIALOG_Y_ORIGIN" value="446"/>
 		<item key="DIALOG_WIDTH" value="1920"/>
-		<item key="DIALOG_HEIGHT" value="1032"/>
+		<item key="DIALOG_HEIGHT" value="423"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>

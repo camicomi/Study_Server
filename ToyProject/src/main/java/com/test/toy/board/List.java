@@ -190,7 +190,6 @@ public class List extends HttpServlet {
 		}
 		
 		
-		
 		req.setAttribute("list", list);
 		req.setAttribute("map", map);
 		req.setAttribute("nowPage", nowPage);
