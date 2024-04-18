@@ -39,10 +39,12 @@
 			- "Login.java": 로그인폼 + 로그인처리
 			- "Logout.java": 로그아웃처리
 			- "Info.java": 회원정보
+			- "LoadCalendar.java"
 		- "com.test.toy.user.repository": DB(DAO)
 			- "UserDAO.java"
 		- "com.test.toy.user.model": DB(DTO)
 			- "UserDTO.java"
+			- "LogDTO.java"
 		- "com.test.toy.board.model"
 			- "BoardDTO.java"
 			- "CommentDTO.java"
@@ -171,7 +173,10 @@ depth 는 들여쓰기 용도.
 	
 
 
-
+유저 활동
+1. 접속
+2. 게시물 작성
+3. 댓글 작성
 
 
 

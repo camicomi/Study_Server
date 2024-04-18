@@ -13,7 +13,6 @@ public class UserDTO {
 	private String intro;
 	private String regdate;
 	private String lv;
-	
 	public String getId() {
 		return id;
 	}
@@ -62,7 +61,7 @@ public class UserDTO {
 	public void setLv(String lv) {
 		this.lv = lv;
 	}
-
+	
 	
 	
 }

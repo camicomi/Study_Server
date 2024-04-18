@@ -73,6 +73,7 @@ public class Add extends HttpServlet {
 		String content = multi.getParameter("content");
 		String reply = multi.getParameter("reply");
 		String tag = multi.getParameter("tag");
+		String secret = multi.getParameter("secret");
 		
 		
 
@@ -121,14 +122,14 @@ public class Add extends HttpServlet {
 		dto.setThread(thread);
 		dto.setDepth(depth);
 		
+		
 		dto.setAttach(multi.getFilesystemName("attach"));
 		
+		dto.setSecret(secret != null ? secret : "0");
 		
 		
 		int result = dao.add(dto);
 		String bseq = dao.getBseq();
-		
-		
 		
 		
 		
@@ -147,24 +148,22 @@ public class Add extends HttpServlet {
 					
 					JSONObject tagObj = (JSONObject)obj;
 					String tagName = (String)tagObj.get("value");
-					// System.out.println(tagName);
+					//System.out.println(tagName);
 					
-					
-					// 해시태그 추가
+					//해시 태그 추가
 					if (dao.existHashtag(tagName)) {
-						 dao.addHashtag(tagName);
+						dao.addHashtag(tagName);
 					} 
 					
+					String hseq = dao.getHseq(tagName);	
+					System.out.println("hseq: " + hseq);
 					
-					String hseq = dao.getHseq(tagName);
-					
-					// 관계 추가
+					//관계 추가
 					HashMap<String,String> map = new HashMap<String,String>();
 					map.put("bseq", bseq);
 					map.put("hseq", hseq);
 					
 					dao.addTagging(map);
-					
 					
 				}
 				
